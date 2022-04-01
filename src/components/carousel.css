@@ -1,0 +1,9 @@
+.carousel-img,
+.carousel-item {
+    min-height: 250px;
+}
+
+.slidergrp-row1,
+.slidergrp-row2 {
+    display: flex;
+}
