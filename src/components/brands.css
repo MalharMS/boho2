@@ -1,0 +1,10 @@
+.brands-main{
+    display: flex;
+    flex-direction: row;
+}
+
+.brand-indi{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
