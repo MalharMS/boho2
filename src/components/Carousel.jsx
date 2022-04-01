@@ -1,14 +1,16 @@
 import React from 'react'
 
 import { Carousel } from 'react-bootstrap'
+import carouselImg from '../Assests/carouselimg.png'
+import "./carousel.css"
 
 const Slider = () => {
   return (
     <Carousel>
       <Carousel.Item interval={4000}>
         <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=First slide&bg=373940"
+          className="d-block w-100 carousel-img"
+          src={carouselImg}
           alt="First slide"
         />
         <Carousel.Caption>
@@ -16,10 +18,10 @@ const Slider = () => {
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item interval={500}>
+      <Carousel.Item interval={4000}>
         <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=282c34"
+          className="d-block w-100 carousel-img"
+          src={carouselImg}
           alt="Second slide"
         />
         <Carousel.Caption>
@@ -29,8 +31,8 @@ const Slider = () => {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
+          className="d-block w-100 carousel-img"
+          src={carouselImg}
           alt="Third slide"
         />
         <Carousel.Caption>
