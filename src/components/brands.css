@@ -1,17 +1,18 @@
-.brands-main{
+.brands-main {
     display: flex;
     flex-direction: row;
     /* margin-left: auto; */
     text-align: center;
 }
 
-.brand-container{
+.brand-container {
     margin: auto;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.brand-indi{
+.brand-indi {
     height: 100px;
     width: 100px;
     border-radius: 50%;
@@ -23,10 +24,10 @@
     align-items: center;
 }
 
-.brand-img{
+.brand-img {
     height: 90px;
     /* object-fit: cover; */
     width: 90px;
-    padding: 2  px;
-    
+    padding: 2 px;
+
 }
