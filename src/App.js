@@ -6,7 +6,7 @@ import Menu from './components/Menu';
 import New from './Screens/New';
 import Categories from './Screens/Categories/Categories';
 import CreateAccount from './Screens/CreateAccount/CreateAccount';
-import Cart from './Screens/Cart';
+import Cart from './Screens/Cart/Cart';
 import MyBag from './Screens/MyBag';
 import Brand from './Screens/Brand';
 import Login from './Screens/Login/Login';
