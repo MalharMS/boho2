@@ -27,7 +27,7 @@ function App() {
         <Route exact path="/bag" element={<MyBag />} />
         <Route exact path="/login" element={<Login />} />
         <Route exact path="/sellersignin" element={<SellerSignIn />} />
-
+        {/* <Route path='/product/:id' element={} /> */}
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
 
