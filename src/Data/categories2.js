@@ -2,7 +2,7 @@ import im from '../Assests/painting.png'
 
 const catelist = [
     {
-        name: "LUXURY",
+        name: "DESIGN",
         description: "Maecenas nec dolor vitae justo ultrices lacinia",
         img: im,
     },
