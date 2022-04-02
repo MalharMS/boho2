@@ -13,6 +13,8 @@ import Login from './Screens/Login/Login';
 import SellerSignIn from './Screens/SellerSignIn/SellerSignIn';
 
 import Fo from './components/Fo';
+import CategoryProduct from './Screens/Categories/CategoryProduct';
+import CategoryProductDetails from './Screens/Categories/CategoryProductDetails';
 function App() {
   return (
     <div className="App">
@@ -27,7 +29,7 @@ function App() {
         <Route exact path="/bag" element={<MyBag />} />
         <Route exact path="/login" element={<Login />} />
         <Route exact path="/sellersignin" element={<SellerSignIn />} />
-        {/* <Route path='/product/:id' element={} /> */}
+        <Route path='/product/:id' element={<CategoryProductDetails />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
 

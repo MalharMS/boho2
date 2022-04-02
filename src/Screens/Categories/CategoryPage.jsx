@@ -28,7 +28,7 @@ const CategoryPage = ({ index, list }) => {
             <div className='cate-product-container'>
                 {list.map((card, index) => {
                     return (
-                        <div className='cate-card'>
+                        <div className='cate-card' key={index}>
                             <CategoryProduct card={card} index={index} />
                         </div>
                     )
