@@ -33,3 +33,11 @@
     text-align: left;
     flex: 1;
 }
+.cart-button{
+    background-color: #EF7C8E;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    margin: 10px 10px;
+    padding: 10px 30px;
+}

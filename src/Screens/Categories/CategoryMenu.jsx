@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './categores.css'
-import im from './painting.png'
+// import im from './painting.png'
 import catelist from '../../Data/categories'
 import catelist2 from '../../Data/categories2'
 import catelist3 from '../../Data/categories3'
@@ -22,6 +22,8 @@ function Categories() {
         return catelist
       case 4:
         return catelist
+      default:
+        return
     }
   }
 

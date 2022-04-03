@@ -42,6 +42,7 @@ const catelist = [
         description: "Maecenas nec dolor vitae justo ultrices lacinia",
         img: im,
     },
+    
     {
         name: "Cras vel",
         description: "Maecenas nec dolor vitae justo ultrices lacinia",

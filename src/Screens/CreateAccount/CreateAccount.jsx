@@ -22,10 +22,10 @@ function CreateAccount() {
                     <label>Role</label>
                     <input type="text" className="form-control" placeholder="Role" />
                 </div>
-                <div className="form-group">
+                {/* <div className="form-group">
                     <label>Looking for</label>
                     <input type="text" className="form-control" placeholder="Looking for" />
-                </div>
+                </div> */}
                 <div className="form-group">
                     <label>Company</label>
                     <input type="text" className="form-control" placeholder="Company" />

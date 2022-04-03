@@ -4,7 +4,7 @@ const CategorySideBar = ({ index }) => {
     const setTitle = (index) => {
         switch (index) {
             case 0:
-                return "Luxury"
+                return sidebarLuxury()
             case 1:
                 return "Design"
             case 2:
@@ -15,19 +15,25 @@ const CategorySideBar = ({ index }) => {
                 return "Price"
         }
     }
-    return (
-        <div><div>
-            <h4>{setTitle(index)}</h4>
+    const sidebarLuxury = () => {
+        return (
+            <div><div>
+            <h4>sfdsdf</h4>
             <h4>Arcu</h4>
             <h4>Condinetum</h4>
             <h4>Cras</h4>
-            <h4>Cursus</h4>
+            <h4>afdasdf</h4>
             <h4>Daim</h4>
             <h4>Dolor</h4>
             <h4>Efficitur</h4>
             <h4>Egrt</h4>
             <h4>Est</h4>
-        </div></div>
+        </div></div>)
+    }
+    return (
+        <div>
+            {setTitle(index)}
+        </div>
     )
 }
 

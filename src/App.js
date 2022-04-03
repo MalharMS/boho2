@@ -4,7 +4,7 @@ import { Route, Routes, Navigate } from 'react-router-dom';
 import Home from './Screens/Home';
 import Menu from './components/Menu';
 import New from './Screens/New';
-import Categories from './Screens/Categories/Categories';
+import Categories from './Screens/Categories/CategoryMenu';
 import CreateAccount from './Screens/CreateAccount/CreateAccount';
 import Cart from './Screens/Cart/Cart';
 import MyBag from './Screens/MyBag';
