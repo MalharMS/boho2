@@ -1,24 +1,25 @@
 import React from 'react'
-import catelist from '../../Data/categories'
+// import catelist from '../../Data/categories'
 import CategoryProduct from './CategoryProduct'
 import CategorySideBar from './CategorySideBar'
 
 const CategoryPage = ({ index, list }) => {
 
-    const setTitle = (index) => {
-        switch (index) {
-            case 0:
-                return "Luxury"
-            case 1:
-                return "Design"
-            case 2:
-                return "Colour"
-            case 3:
-                return "Trending"
-            case 4:
-                return "Price"
-        }
-    }
+    // const setTitle = (index) => {
+    //     switch (index) {
+    //         case 0:
+    //             return "Luxury"
+    //         case 1:
+    //             return "Design"
+    //         case 2:
+    //             return "Colour"
+    //         case 3:
+    //             return "Trending"
+    //         case 4:
+    //             return "Price"
+    //             default:
+    //     }
+    // }
 
     return (
         <div className='cate-second'>

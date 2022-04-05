@@ -4,9 +4,9 @@ import catelist from '../../Data/categories'
 import im from '../../Assests/Rectangle 55.png'
 import tempimg from '../../Assests/item.png'
 import './categoryproductdetails.css'
-import { DropdownButton, FormControl, InputGroup } from 'react-bootstrap'
-import { Dropdown } from 'bootstrap'
-import { Button } from 'bootstrap'
+// import { DropdownButton, FormControl, InputGroup } from 'react-bootstrap'
+// import { Dropdown } from 'bootstrap'
+// import { Button } from 'bootstrap'
 
 const CategoryProductDetails = () => {
 

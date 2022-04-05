@@ -13,7 +13,7 @@ import Login from './Screens/Login/Login';
 import SellerSignIn from './Screens/SellerSignIn/SellerSignIn';
 
 import Fo from './components/Fo';
-import CategoryProduct from './Screens/Categories/CategoryProduct';
+// import CategoryProduct from './Screens/Categories/CategoryProduct';
 import CategoryProductDetails from './Screens/Categories/CategoryProductDetails';
 function App() {
   return (
