@@ -1,0 +1,43 @@
+.bag-cart-outer{
+    display:flex;
+    padding:50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .bag-cart-detail-box{ */
+    /* margin:  0 20px; */
+    /* display: flex;
+    margin:10px;
+    margin:50px;
+    justify-content: left;
+    align-items: center;
+} */
+.cart-product-info-div{
+    margin:20px 0;
+}
+
+.bag-cart-card{
+    margin:20px;
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+    padding:10px;
+    position: relative;
+}
+.cart-product-individual-info-availability{
+    color:green
+}
+
+.cart-close-button{
+    width:40px;
+    height:40px;
+    color:white;
+    background-color:black;
+    border-radius:50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position:absolute;
+    top:-0.5rem;
+    right:-0.5rem
+}

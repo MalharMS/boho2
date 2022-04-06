@@ -1,6 +1,6 @@
 import React from 'react'
 import './brands.css'
-import img1 from '../Assests/image 4.png'
+import img1 from '../../Assests/image 4.png'
 function Brands() {
     return (
         <div className='brands-main'>

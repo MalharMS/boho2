@@ -6,8 +6,6 @@ const CategoryProduct = ({ card, index }) => {
         <>
             <Link to={`/product/${index}`} className='product-link'>
                 <div className='category-product-card'>
-
-
                     <div className='cate-img-div'>
                         <img src={card.img} alt=''></img>
                         <div className='category-icon-outer'>

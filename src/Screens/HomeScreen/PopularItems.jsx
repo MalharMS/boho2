@@ -1,5 +1,5 @@
 import React from 'react'
-import Slider from './Carousel'
+import Slider from '../../components/Carousel'
 
 function Popular_items() {
   return (

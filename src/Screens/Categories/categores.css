@@ -11,9 +11,9 @@
 
 }
 
-.cate-button-div {
-    /* width: 20%; */
-}
+/* .cate-button-div {
+    width: 20%;
+} */
 
 .category-button {
     background-color: #EF7C8E;
@@ -34,20 +34,12 @@
     position: static;
 }
 
-/* 
-.cate-product-container{
-    width: 80%;
-    background-color: royalblue;
-} */
-
 .cate-product-container {
     display: inline-flex;
-    /* flex-direction: row; */
     justify-content: space-evenly;
     position: relative;
     width: 80%;
     flex-wrap: wrap;
-
 }
 
 .cate-card {
@@ -65,9 +57,9 @@
     position: relative;
 }
 
-.cate-product-heading {}
+/* .cate-product-heading {}
 
-.cate-product-description {}
+.cate-product-description {} */
 
 a {
     text-decoration: none;
