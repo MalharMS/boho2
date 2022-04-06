@@ -13,6 +13,7 @@ const CategorySideBar = ({ index }) => {
                 return "Trending"
             case 4:
                 return "Price"
+                default:
         }
     }
     const sidebarLuxury = () => {
