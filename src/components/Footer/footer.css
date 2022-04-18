@@ -1,0 +1,28 @@
+.main-footer {
+  color: white;
+  background-color: #000109;
+  padding-top: 3em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+  font-size: 20px;
+  margin: 5px;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+h4 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+
+}
+
+p {
+  font-family: sans-serif
+}

@@ -4,6 +4,7 @@ import { Carousel } from 'react-bootstrap'
 import carouselImg from '../Assests/carouselimg.png'
 import "./carousel.css"
 
+
 const Slider = () => {
   return (
     <Carousel>

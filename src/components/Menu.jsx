@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Navbar, Nav } from 'react-bootstrap'
 import { NavLink } from 'react-router-dom'
+// import logo from '../Assests/logo.png'
 const Menu = () => {
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
@@ -10,7 +11,7 @@ const Menu = () => {
                             activeClassName="active"
                             aria-current="page"
                             to="/"
-                        >Boho</NavLink></Navbar.Brand>
+                        ><img src={logo} alt="logo" /></NavLink></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="m-auto">

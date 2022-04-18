@@ -2,7 +2,6 @@ import './App.css';
 import { Route, Routes, Navigate } from 'react-router-dom';
 
 import Home from './Screens/HomeScreen/Home.jsx';
-import Menu from './components/Menu';
 import New from './Screens/New/New';
 import Categories from './Screens/Categories/CategoryMenu';
 import CreateAccount from './Screens/CreateAccount/CreateAccount';
@@ -12,13 +11,18 @@ import Brand from './Screens/Brand/Brand';
 import Login from './Screens/Login/Login';
 import SellerSignIn from './Screens/SellerSignIn/SellerSignIn';
 
-import Fo from './components/Fo';
+import Navbar from './components/Navbar/Navbar';
+
+
 // import CategoryProduct from './Screens/Categories/CategoryProduct';
 import CategoryProductDetails from './Screens/Categories/SingleProuctPage/CategoryProductDetails';
+import Announcement from './components/Announcement';
+import Footer from './components/Footer/Footer';
 function App() {
   return (
     <div className="App">
-      <Menu />
+      <Announcement />
+      <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/categories" element={<Categories />} />
@@ -33,7 +37,7 @@ function App() {
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
 
-      <Fo />
+      <Footer />
     </div>
   );
 }
